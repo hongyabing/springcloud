@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bainuo-eureka" />
+        <module name="server-consumer" />
+        <module name="service-provider" />
+        <module name="bainuo-eureka (1)" />
+        <module name="service-provider_2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bainuo-eureka" target="1.8" />
+      <module name="bainuo-eureka (1)" target="1.8" />
+      <module name="server-consumer" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="service-provider_2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bainuo-eureka" options="-parameters" />
+      <module name="bainuo-eureka (1)" options="-parameters" />
+      <module name="server-consumer" options="-parameters" />
+      <module name="service-provider" options="-parameters" />
+      <module name="service-provider_2" options="-parameters" />
+    </option>
+  </component>
+</project>
