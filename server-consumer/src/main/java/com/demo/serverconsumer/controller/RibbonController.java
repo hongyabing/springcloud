@@ -29,7 +29,7 @@ public class RibbonController {
         return restTemplate.getForObject("http://serviceprovider/hello", String.class);
     }
 
-    @RequestMapping("/helloremote/{name}")
+    @RequestMapping(value = "/helloremote/{name}",produces = {"application/json; charset=utf-8"})
     public String hello(@PathVariable("name") String name){
         return helloRemote.hello(name);
     }
