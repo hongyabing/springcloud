@@ -1,5 +1,6 @@
 package com.demo.serverconsumer.service;
 
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,4 +16,5 @@ public interface HelloRemote {
     // //这里调用的是注册中心的提供的服务、serviceprovider这个实例名的项目中的代码
     @RequestMapping(value = "/hello")
     public String hello(@RequestParam(value = "name") String name);
+
 }
