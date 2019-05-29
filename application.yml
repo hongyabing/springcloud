@@ -8,7 +8,7 @@ spring:
       prefix: /WEB-INF/
       suffix: .jsp
 server:
-    port: 9098
+    port: 9096
 #    ssl:
 #       key-store: classpath:report.bainuogene.com.jks
 #       key-store-password: 80287bkg0m345
@@ -16,3 +16,4 @@ server:
 #       keyAlias: Tomcat
 logging:
   config: classpath:logback-spring.xml
+  
