@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+#          uri: http://git.oschina.net/didispace/config-repo-demo/
+          uri: https://github.com/hongyabing/springcloud.git
+#          search-paths: repo
+          username: 1101282027@qq.com
+          password: hong110128
+
+server:
+  port: 1201
+
+#读取github中的配置文件；application.yml
+
+
+#访问方式：http://localhost:1201/config-client/default/master

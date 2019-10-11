@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:1201/
+      profile: dev
+      label: master
+      username: 1101282027@qq.com
+      password: hong110128
+
+
+server:
+  port: 1200
+
+
+#http://localhost:1200/from ，请求这个就可以访问配置config-server中心的文件信息了
