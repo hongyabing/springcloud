@@ -9,7 +9,6 @@ spring:
       suffix: .jsp
 server:
     port: 9096
-    ip:192.168.12.321
 #    ssl:
 #       key-store: classpath:report.bainuogene.com.jks
 #       key-store-password: 80287bkg0m345
